@@ -19,7 +19,7 @@ int main()
 	shape.setFillColor(sf::Color::White);
 
 	sf::Texture shapeTexture;
-	shapeTexture.loadFromFile("content/sfml.png");
+	shapeTexture.loadFromFile("content/player.png");
 	shape.setTexture(&shapeTexture);
 
 	sf::Event event;
