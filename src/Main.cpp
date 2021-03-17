@@ -23,6 +23,9 @@ int main()
 {
 	window.setVerticalSyncEnabled(true);
 	// window.setFramerateLimit(30);
+	sf::Texture shapeTexture;
+	shapeTexture.loadFromFile("content/player.png");
+	shape.setTexture(&shapeTexture);
 
 	while (ScreenWidth % BLOCKS_NUM) //	assure bars are on whole window width
 	{
